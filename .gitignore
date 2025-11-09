@@ -53,3 +53,19 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Compiled kernel and images
+kernel
+kernel.asm
+kernel.elf
+kernel.img
+fs.img
+xv6.img
+
+# Symbol files
+*.sym
+
+# QEMU/GDB files
+.qemu-gdb
+.gdbinit
+.qemu-serial
